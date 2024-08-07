@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+
+</head>
+<body>
+  <div id="full-page">
+    <header class="navbar" id="navbar">
+      <div class="left">
+        <p class="name"><a href="#home1">Portfolio</a></p>
+      </div>
+      <div class="middle">
+        <ul>
+          <li><a href="#home1">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#experiences">experiences</a></li>
+          <li><a href="#contact1">contact</a></li>
+        </ul>
+      </div>
+      <div class="right" onclick="changeColor()";>
+        <i class="fa fa-moon-o" id="change"></i>
+      </div>
+    </header>
+    <section class="home" id="home1">
+      <div class="left-text">
+        <p>hello, my name is</p>
+        <h1>Krishna perumal</h1>
+        <h2>and i'm a <span>front end Developer</span></h2>
+        <a href="#contact1" style="color: white;text-decoration: none;"> <button id="hire">hire me</button></a>
+      </div>
+      <div class="right-img">
+        <img src="images/2564-removebg-preview.png" alt="">
+      </div>
+    </section>
+    <section class="about" id="about">
+      <p class="about-me">about me</p>
+      <div class="both">
+        <div class="left-about">
+          <img src="images/2564-removebg-preview.png" alt="">
+        </div>
+        <div class="right-about">
+          <p>
+            Passionate and skilled Full Stack Developer with experience in Java, Spring Boot, React, and MySQL. Seeking to leverage
+skills and knowledge in a dynamic and innovative environment.
+          </p>
+          <a href="images/ATS_Friendly_Technical_Resume.pdf" style="text-decoration: none;color:black;" target="_blank"><button class="docv">download cv</button></a>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <p class="my-skills">skills</p>
+      <div class="skl">
+        <div class="one">
+          <div class="each1">
+            <h1 class="front">Java Full Stack development</h1>
+          </div>
+          <div class="overall-each">
+            <div class="each">
+              <p>html</p>
+            </div>
+            <div class="each">
+              <p>CSS</p>
+            </div>
+            <div class="each">
+              <p>JavaScript</p>
+            </div>
+            <div class="each">
+              <p>react</p>
+            </div>
+            <div class="each">
+              <p>java</p>
+            </div>
+            <div class="each">
+              <p>spring boot</p>
+            </div>
+            <div class="each">
+              <p>c</p>
+            </div>
+            <div class="each">
+              <p>MySQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="pro">projects</p>
+      <div class="hole">
+        <div class="one-pro" style="display: flex;flex-direction: column;justify-content: center;">
+          <p class="title">portfolio website</p>
+          <img src="images/portfolio.png" alt="">
+          <ul style="margin-top: 22px;padding-right: 10px;">
+              <li style="margin: 3px;">Designed and developed a responsive personal portfolio website to showcase projects and skills.</li>
+              <li style="margin: 3px;">Utilized React for dynamic content rendering and improved user experience.</li>
+              <li style="margin: 3px;">Optimized website performance and accessibility, and deployed using GitHub Pages.</li>
+              <a href="" ><button style="width: 10rem;height: 3rem;font-size: 1.2rem;text-transform: capitalize;border-radius: 18px;border: 1px solid black;cursor: pointer;">know more</button></a>
+            </ul>
+        </div>
+        <div class="one-pro">
+          <p class="title">crud application</p>
+          <img src="images/curd.png" alt="">
+          <ul style="margin-top: 22px;padding-right: 10px;">
+            <li style="margin: 3px;">Developed a full-stack CRUD application to manage user data.</li>
+            <li style="margin: 3px;">Implemented backend services with Spring Boot for data processing and MySQL for database management.</li>
+            <li style="margin: 3px;">Designed a user-friendly frontend using HTML, CSS, and JavaScript for seamless interaction.</li>
+            <a href="https://github.com/krishnaP8304/crud-app" target="_blank" ><button style="width: 10rem;height: 3rem;font-size: 1.2rem;text-transform: capitalize;border-radius: 18px;border: 1px solid black;cursor: pointer;">know more</button></a>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="experiences" id="experiences">
+      <p class="ll">experiences</p>
+      <div class="top">
+        <h1>java full stack trainee</h1>
+        <h3>mar 2024 -- april 2024</h3>
+        <h2>TNSIF Capgemini</h2>
+        <ul style="color: #222;font-size: 1.3rem;margin-top: 33px;">
+            <li>Completed an intensive 2-month Java Full Stack development program.</li>
+            <li>Gained hands-on experience in HTML, CSS, JavaScript, MySQL, Java, and Spring Boot.</li>
+            <li>Built practical skills through real-world projects, including web development and backend integration.</li>
+        </ul>
+      </div>
+    </section>
+    <footer class="contact" id="contact1">
+      <p class="ccon">contact</p>
+      <div class="over-con">
+        <div class="con">
+          <a href="" style="text-decoration: none;color: black;display: flex;align-items: center;">
+            <div class="img-con">
+              <!-- <i class="material-icons" style="font-size:50px">person_outline</i> -->
+              <!-- <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/user--v1.png" alt="user--v1"/> -->
+               <img src="images/icons8-user-30 (1).png" alt="">
+            </div>
+            <div class="text-con" id="te-co">
+              <h4>name</h4>
+              <p>Krishna</p>
+            </div>
+          </a>
+        </div>
+        <div class="con">
+          <a href="tel:+8610272004" target="_blank" style="text-decoration: none;color: black;display: flex;align-items: center;">
+            <div class="img-con">
+              <!-- <i class="fa fa-phone-square" style="font-size:46px"></i>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span class="glyphicon glyphicon-earphone"></span> -->
+              <!-- <i class="bi bi-telephone"></i> -->
+               <img src="images/icons8-phone-48.png" alt="">
+            </div>
+            <div class="text-con" id="te-co1">
+              <h4>phone no</h4>
+              <p>8610272004</p>
+            </div>
+          </a>
+        </div>
+        <div class="con">
+          <a href="mailto:krishnaperumal8304@gmail.com" style="text-decoration: none;color: black;display: flex;align-items: center;">
+            <div class="img-con">
+              <!-- <i class="fa fa-envelope-o" style="font-size:40px"></i> -->
+               <img src="images/icons8-gmail-48.png" alt="">
+            </div>
+            <div class="text-con" id="te-co2">
+              <h4>gmail</h4>
+              <p>krishnaperumal8304@gmail.com</p>
+            </div>
+          </a>    
+        </div>
+        <div class="con">
+          <a href="https://github.com/krishnaP8304" target="_blank" style="text-decoration: none;color: black;display: flex;align-items: center;">
+            <div class="img-con">
+              <!-- <i class="fa fa-github" style="font-size:50px"></i> -->
+               <img src="images/icons8-github-64.png" alt="">
+            </div>
+            <div class="text-con" id="te-co3">
+              <h4>github</h4>
+              <p>github.com/krishnaP8304</p>
+            </div>
+          </a>
+        </div>
+        <div class="con">
+          <a href="https://www.linkedin.com/in/krishna-p8305" target="_blank" style="text-decoration: none;color: black;display: flex;align-items: center;">
+            <div class="img-con">
+              <!-- <i class="fa fa-linkedin-square" style="font-size:50px"></i> -->
+               <img src="images/icons8-linkedin-48.png" alt="">
+            </div>
+            <div class="text-con" id="te-co4">
+                <h4>linkedin</h4>
+                <p>www.linkedin.com/in/krishna-p8305</p>
+            </div>
+          </a>
+        </div>
+      </div>  
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
